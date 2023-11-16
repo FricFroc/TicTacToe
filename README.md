@@ -1,7 +1,15 @@
-# Vue 3 + Vite
+## EN TicTacToe
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a basic TicTacToe I made in a few days with Vue 3!
+This game has been made using Vite.
+I'm fully aware that the code might be complete garbage and it is not used the way Vue is intended to.
+I'm still a beginner in javascript...
+Try it [here](https://morpion.perret.dev)!
 
-## Recommended IDE Setup
+## FR Morpion
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+C'est un simple morpion que j'ai fait en quelques jours avec Vue 3 !
+Ce jeu a été fait grâce à Vite.
+J'ai parfaitement conscience que le code doit être horrible et que ce n'est pas la façon dont on est censé utiliser Vue.
+Je suis encore débutant en javascript...
+Essaie-le [ici](https://morpion.perret.dev) !
