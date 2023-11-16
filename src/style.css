@@ -1,0 +1,76 @@
+:root {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  outline: none;
+
+  /*color-scheme: light dark;*/
+  color: rgb(255, 255, 255);
+/*
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;*/
+}
+
+* {
+  background-color: #1a1a1a;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 1.2em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #202020;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  outline: transparent solid 0px;
+  transition: outline 0.25s;
+}
+
+button:hover {
+  outline: #646cff solid 1px;
+}
+
+button:focus{
+  outline: #646cff solid 3px;
+}
+
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
